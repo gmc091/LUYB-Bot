@@ -6,7 +6,7 @@ const client = new DJS.Client({
 })
 
 client.on('ready', () => {
-    console.log("The bot is ready")
+    console.log("The bot is ready!!")
 })
 
 client.login(process.env.TOKEN)
